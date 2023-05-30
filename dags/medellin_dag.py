@@ -10,9 +10,7 @@ default_args = {
     "start_date": datetime(2023, 5, 25, 21, 25, 0, 0),
     "email": ["airflow@example.com"],
     "email_on_failure": False,
-    "email_on_retry": False,
-    "retries": 1,
-    "retry_delay": timedelta(minutes=1),
+    "email_on_retry": False
 }
 
 
